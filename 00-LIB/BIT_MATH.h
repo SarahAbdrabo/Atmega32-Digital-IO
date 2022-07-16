@@ -17,36 +17,4 @@ file path:
 
 
 
-
-/*****************************************************************/
-/****************************TASK*********************************/
-
-
-/*                         1. circular shift                     */
-#define   SET_BIT(VAR, BIT_NO)   VAR |= (1<<BIT_NO)  
-
-
-
-/*                2. SET High Nibble  ie: 1111 XXXX              */
-
-
-
-/*                2. SET LOW Nibble  ie: XXXX 1111                */
-
-
-
-/*                2. CLR High Nibble  ie: 0000 XXXX               */
-
-
-
-/*                2. CLR LOW Nibble  ie: XXXX 0000                */
-
-
-/*                2. TGL High Nibble  ie: YYYY XXXX               */
-
-
-
-/*                2. TGL LOW Nibble  ie: XXXX YYYY                */
-
-
 #endif
