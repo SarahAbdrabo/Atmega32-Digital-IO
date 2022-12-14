@@ -15,6 +15,8 @@ file path:
 
 #define   GET_BIT(VAR, BIT_NO)   (VAR >> BIT_NO) & 1        //GETS state of a given bit
 
+/*u can also use this if the above code caused u an error getting a bit state : */
+//#define   GET_BIT(VAR, BIT_NO)   (VAR >> BIT_NO) & (1<<0)   //GETS state of a given bit (causes less errors)
 
 
 #endif
